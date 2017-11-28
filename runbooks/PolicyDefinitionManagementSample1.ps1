@@ -6,10 +6,6 @@
         The builtin RBAC roles of "Owner" and "User Access Administrator" have this level of privelage.
         Classic storage accounts are NOT supported in this script.
         By design, this runbook adds and updates policies. It does not delete policies.
-
-    .NOTES
-        AUTHOR: Karl Kuhnhausen
-        LASTEDIT: January 26, 2017
 #>
 
 $connectionName = "AzureRunAsConnection"
